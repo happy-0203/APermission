@@ -68,6 +68,8 @@
       }
 
 ##使用
+
+
   ###请求多个权限
   
     @Permission({Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.CAMERA})
@@ -84,6 +86,7 @@
     public void requestMorePermissionDenied(){
         Toast.makeText(this,"权限拒绝",Toast.LENGTH_SHORT).show();
     }
+    
  ###请求单个权限
  
     @Permission(Manifest.permission.READ_PHONE_STATE)
