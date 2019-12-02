@@ -2,8 +2,8 @@
 
 ##在工程的build.gradle中添加如下代码
 
-      ###classpath 'org.aspectj:aspectjtools:1.8.9'
-      ###classpath 'org.aspectj:aspectjweaver:1.8.9'
+      classpath 'org.aspectj:aspectjtools:1.8.9'
+      classpath 'org.aspectj:aspectjweaver:1.8.9'
 
 ## 在app moudle中的build.gradle添加如下代码
 
